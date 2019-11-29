@@ -1,0 +1,19 @@
+init : Bikin folder baru
+git status : utk mengecek itu repository git atau bukan
+
+organise > properties > hidden : buat ngehidden/unhide folder di wins7
+file > view > hidden item : ngehidden/unhide folder di wins10
+
+Bikin repository GIT (bikin projek GIT)
+cara 1 > git init nama-project (nama project akan jadi sebuah folder)
+cara 2 > buka folder project lalu ketik git init .
+
+Cara cek reppository git/buka: klo ada tulisan master di folder git atau tulis git status
+Cara jadi GIT project > git init .
+
+cth:
+   Bikin repository GIT utk project baru
+    - git init nama-project
+   Bikin repository GIT utk porject yg udh ada sebelumnya
+    - buka folder project yg sdh dibuat
+    - ketik git init . dalam terminal
