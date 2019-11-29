@@ -1,0 +1,32 @@
+Config git
+git config --global --list
+git config --list
+
+Set Uname&email
+git config --global user.name "nama"
+git config --global user.email "email"
+
+Hapus config
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --edit
+
+
+git status
+git add kode file
+git commit -m "catetan"
+git log --oneline
+git checkout kode
+git checkout master
+
+
+git add . > Add semua file
+git reset . > Balikin semua file yg udah stagged jadi untracked
+git add *.extensi > nambahin semua file sesuai extensi yg diminta
+git add namafile.* > nambahin semua file dengan nama yang sama
+git add *.* > nambahin file dengan nama apapun dan extensi apapun
+git checkout . > utk ubah file commited yg udh kedelete ke stagged (undo delete) walaupun udh delete permanent
+git diff kode > untuk melihat perbedaan file saat sudah diedit & dicommit dengan file yg belum diedit
+git config --global core.editor "address core editor"
+git diff kode kode > bandingin perbedaan yg ada pada dua kode log tsb
+git checkout kode namafile > ubah file yg commited jadi modified

@@ -17,3 +17,18 @@ cth:
    Bikin repository GIT utk porject yg udh ada sebelumnya
     - buka folder project yg sdh dibuat
     - ketik git init . dalam terminal
+
+Untracked > file yg baru (
+Modified > file yg dubah tanpa menambahkan git add pada command prompt
+Commited > Mencatat perubahan
+
+Kondisi untracked klo udah diubah harus dicatat jadi kondisi awal biar statusnya berubah jadi stagged
+
+Mencatat perubahan
+
+1. Tandai yg akan dicatat
+    - git add nama-file.extensi
+	contoh:
+	    git add belajar-git.txt
+2. Catat dengan commit
+    - git commit -m "Ini adalah catatan pertama belajar-git.txt"
