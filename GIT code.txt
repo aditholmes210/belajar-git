@@ -30,3 +30,7 @@ git diff kode > untuk melihat perbedaan file saat sudah diedit & dicommit dengan
 git config --global core.editor "address core editor"
 git diff kode kode > bandingin perbedaan yg ada pada dua kode log tsb
 git checkout kode namafile > ubah file yg commited jadi modified
+git checkout log > dari commited ke stagged (tidak bisa diedit)
+git checkout log namafile > dari commited ke stagged (bisa diedit)
+
+git merge namabranch (di master) > gabungin branch ke master
